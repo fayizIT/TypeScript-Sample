@@ -5,7 +5,7 @@ type Detailss = {
     name: string;
     age:number;
     salary:number
-    getName:()=> void;  
+    getName ?:()=> void;   //optional adding ternory feature
 }
 
 

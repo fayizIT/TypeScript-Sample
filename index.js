@@ -6,9 +6,10 @@ var subscribers = 4000;
 var isSubscribed = true;
 var Skills = ["js", "css", "ts"];
 var count = [1, 2, 3, 4];
-var emptyArray = [];
-var userDetails = {
-    name: "fayiz",
-    age: 25,
-    salary: 300000
+//empty array define 
+var emptyArray = []; //if num or string add in this array  show wrror
+//define in object type
+var userData = {
+    name: "Fayizzz",
+    age: 33
 };

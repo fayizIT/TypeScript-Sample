@@ -12,7 +12,16 @@ let Skills : string[] =["js", "css", "ts"]
 
 let count: number[] = [ 1,2,3,4];
 
-let emptyArray: [] =[]
+
+//empty array define 
+let emptyArray: [] =[] ; //if num or string add in this array  show wrror
+
+
+//define in object type
+let userData : { name: string; age:number} = {
+name:"Fayizzz",
+age:33   
+}
 
 
 

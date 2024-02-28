@@ -40,7 +40,7 @@ let StudentDetail :SecondFunctionDetails ={
 
 
 //functions
-function getUserName(TutorDetail :FunctionDetails, StudentDetail :SecondFunctionDetails)  ///define the TutorDetail is from FunctionDetails. otherwise its doesnt display the predictions
+function getUserName(TutorDetail : FunctionDetails, StudentDetail :SecondFunctionDetails)  ///define the TutorDetail is from FunctionDetails. otherwise its doesnt display the predictions
 {
   return TutorDetail.name,StudentDetail.Grade
 }

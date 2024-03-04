@@ -11,7 +11,7 @@ getAge(44)
 
 
 //function with generics add <T> OR <TYPE> ANY NAME
-// generics is infering also
+// generics is infering also case-1 
 
 function getAge1<T>(age: T): T{
     return age;
@@ -21,7 +21,7 @@ getAge1<string>("20");
 getAge1<number>(20);
 
 
-
+//apply generics in case 2 
 type userDetail={
     name:string,
     age:number
